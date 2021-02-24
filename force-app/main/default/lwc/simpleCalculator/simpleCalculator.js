@@ -1,7 +1,7 @@
 import { LightningElement, track } from 'lwc';
 
 export default class SimpleCalculator extends LightningElement {
-    currentResult = "New Result";
+    currentResult = "Any Result Goes Here";
     firstNumber;
     secondNumber;
     numberChangeHandler(event) {
